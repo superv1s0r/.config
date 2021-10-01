@@ -1,6 +1,15 @@
 # Configs
 Configs for all programs I got on my ArchLinux btw
 
+To setup them up you just need to install repository:
+
+<code>git clone https://github.com/superv1sor/configs.git</code>
+
+
+Go to directory with config you need and copy them into your config file directory:
+
+<code>cp path/to/my/config /path/to/your/config</code>
+
 
 # Nvim
 Is located in ~/.config/nvim/init.vim
