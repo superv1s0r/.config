@@ -9,7 +9,7 @@ Theme: Palenight;
 
 Tree Explorer: NERDTree;
 
-Additional Plugins: Startify - changes Starting Screen;
+Additional Plugins: Startify;
 
 Some additional stuff;
 
