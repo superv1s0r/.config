@@ -29,7 +29,7 @@ Basic config;
 
 Changed default editor to NVIM in "~/.config/ranger/rifle.conf";
 
-# Rasi
+# Rofi
 
 Config file and theme;
 
