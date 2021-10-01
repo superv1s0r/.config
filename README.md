@@ -1,5 +1,5 @@
 # Configs
-Configs for all programs I got on my Linux
+Configs for all programs I got on my ArchLinux btw
 
 
 # Nvim
