@@ -23,13 +23,13 @@ There are some schemes that you can choose by changing -> "colors: scheme_name/y
 
 Added time, cpu_perc, ram_perc, upload and download, volume; 
 
-#Ranger(File Manager)
+# Ranger(File Manager)
 
 Basic config;
 
 Changed default editor to NVIM in "~/.config/ranger/rifle.conf";
 
-#Rasi
+# Rasi
 
 Config file and theme;
 
