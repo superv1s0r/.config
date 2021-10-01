@@ -2,7 +2,7 @@
 Configs for all programs I got on my Linux
 
 
-#Nvim
+# Nvim
 Theme: Palenight
 Tree Explorer: NERDTree
 Some additional stuff
