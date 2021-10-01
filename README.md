@@ -33,7 +33,7 @@ Changed default editor to NVIM in "~/.config/ranger/rifle.conf";
 
 Config file and theme;
 
-# Aditional
+# Additional
 
 If you want Slstatus to work properly, you will need to download Font-Awesome -> https://fontawesome.com/
 
