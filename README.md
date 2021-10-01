@@ -19,7 +19,7 @@ Is located in ~/.config/alacritty/alacritty.yml
 
 There are some schemes that you can choose by changing -> "colors: scheme_name/you/want";
 
-#Slstatus
+# Slstatus
 
 Added time, cpu_perc, ram_perc, upload and download, volume; 
 
