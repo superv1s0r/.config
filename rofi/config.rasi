@@ -1,0 +1,5 @@
+configuration {
+ modi: "window,run,filebrowser,ssh";
+ theme: "~/.config/rofi/themes/dt-center.rasi";
+ combi-modi: "window,run,filebrowser,ssh";
+ }
