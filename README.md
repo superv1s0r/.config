@@ -1,7 +1,7 @@
 # Configs
 Configs for all programs I got on my ArchLinux btw
 
-To setup them up you just need to download the repository:
+To set them up you just need to download the repository:
 
 <code>git clone https://github.com/superv1s0r/configs.git</code>
 
