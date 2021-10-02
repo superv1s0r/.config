@@ -1,5 +1,5 @@
 # Configs
-Configs for all programs I have on my ArchLinux btw
+Configs for all programs I have on my Arch Linux btw
 
 To set them up you just need to download the repository:
 
