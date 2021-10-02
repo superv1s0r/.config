@@ -1,3 +1,4 @@
+/* /w DistroTube */
 * {
     background-color:            #282c34;
     border-color:                #282c34;
@@ -82,11 +83,8 @@ element-text {
     text-color:       inherit;
 }
 
-/* Not actually relevant for this configuration, but it might
-be useful to someone having issues with their icons' background color
-
 element-icon {
     background-color: inherit;
 }
-*/
+
 
