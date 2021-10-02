@@ -6,7 +6,7 @@ To set them up you just need to download the repository:
 <code>git clone https://github.com/superv1s0r/configs.git</code>
 
 
-Go to directory with config you need and copy them into your config file directory:
+Go to directory of the repository and copy them into your config file directory:
 
 <code>cp path/to/my/config/config_file /path/to/your/config/</code>
 
