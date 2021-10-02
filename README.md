@@ -44,5 +44,5 @@ Config file and theme;
 
 # Additional
 
-If you want Slstatus to work properly, you will need to download Font-Awesome -> https://fontawesome.com/
+If you want Slstatus to work properly, you will need to download Font-Awesome -> <code>https://fontawesome.com/</code>
 
