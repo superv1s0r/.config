@@ -8,7 +8,7 @@ To setup them up you just need to download the repository:
 
 Go to directory with config you need and copy them into your config file directory:
 
-<code>cp path/to/my/config /path/to/your/config</code>
+<code>cp path/to/my/config/config_file /path/to/your/config</code>
 
 
 # Nvim
