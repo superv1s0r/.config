@@ -19,7 +19,7 @@ call plug#end()
 " Get syntax files from config folder
 set runtimepath+=~/.config/nvim/syntax
 
-" Theme
+" Theme NVIM
   set termguicolors
 set background=dark
 colorscheme gruvbox
