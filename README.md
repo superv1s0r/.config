@@ -5,32 +5,33 @@ To set them up you just need to download the repository:
 
 <code>git clone https://github.com/superv1s0r/configs.git</code>
 
-
 Go to directory of the repository and copy them into your config file directory:
 
-<code>cp path/to/my/config/config_file /path/to/your/config/</code>
+<code>cp -r {PROGRAM_NAME_FOLDER} ~/.config/{PROGRAM_NAME_FOLDER}</code>
 
+# Awesome
 
-# Nvim
+An amazing window manager, written in Lua; Very easy and intuitive to use
+
+I am using Multicolor Theme located at:
+<code>awesome/themes/multicolor/</code>
+
+Font: <b>Source Code Pro</b>
+
+Some features have been commented in <code>/awesome/themes/multicolor/theme.lua</code>
+
+# NVIM
 Is located in ~/.config/nvim/init.vim
 
-Theme: Palenight;
+Theme: gruvbox, ligth. Change at: <code>~/.config/nvim/lua/post-plugin-basics.lua</code>
 
-Tree Explorer: NERDTree;
-
-Additional Plugins: Startify;
-
-Some additional stuff;
+Tree Explorer: NERDTree
 
 
 # Alacritty
 Is located in ~/.config/alacritty/alacritty.yml
 
 There are some schemes that you can choose by changing -> "colors: scheme_name/you/want";
-
-# Slstatus
-
-Added time, cpu_perc, ram_perc, upload and download, volume; 
 
 # Ranger(File Manager)
 
@@ -40,9 +41,5 @@ Changed default editor to NVIM in "~/.config/ranger/rifle.conf";
 
 # Rofi
 
-Config file and theme;
-
-# Additional
-
-If you want Slstatus to work properly, you will need to download Font-Awesome -> <code>https://fontawesome.com/</code>
+Locate it at <code>~/.config/rofi/</code>
 
