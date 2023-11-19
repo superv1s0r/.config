@@ -22,15 +22,10 @@ Some features have been commented in <code>/awesome/themes/multicolor/theme.lua<
 
 # NVIM(Text Editor)
 Is located in ~/.config/nvim/init.vim
+Theme: melange-nvim<code>nvim/lua/suvisor/plugins.lua</code>
+<img src="https://i.imgur.com/QYRdgwZ.png">
 
-Theme: gruvbox, ligth. Change at: <code>~/.config/nvim/lua/post-plugin-basics.lua</code>
-<b>Light Theme</b>
-<img src="https://i.imgur.com/v7DawuD.png" align="center">
----
-<b>Dark Theme</b>
-<img src="https://i.imgur.com/f0SjKDK.png" align="center">
-
-<b>Tree Explorer: NERDTree</b>
+<b>Tree Explorer: NeoTree</b>
 
 <b>Default NVIM-LSP</b>
 
