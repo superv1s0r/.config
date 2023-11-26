@@ -200,7 +200,7 @@ _G.packer_plugins = {
     url = "https://github.com/theprimeagen/refactoring.nvim"
   },
   ["tabline.nvim"] = {
-    config = { "\27LJ\2\n�\3\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0�\1\n      set guioptions-=e \" Use showtabline in gui vim\n\n      set sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\n    \bcmd\bvim\foptions\25component_separators\1\3\0\0\b\b\23section_separators\1\0\b\23show_filename_only\1\15show_bufnr\1\18show_devicons\2\21show_tabs_always\1\27max_bufferline_percent\3B\19show_tabs_only\1\20modified_italic\1\18modified_icon\a+ \1\3\0\0\b\b\1\0\1\venable\2\nsetup\ftabline\frequire\0" },
+    config = { "\27LJ\2\n�\3\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0�\1\n      set guioptions-=e \" Use showtabline in gui vim\n\n      set sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\n    \bcmd\bvim\foptions\25component_separators\1\3\0\0\b\b\23section_separators\1\0\b\19show_tabs_only\1\20modified_italic\1\18modified_icon\a+ \23show_filename_only\1\15show_bufnr\1\18show_devicons\2\21show_tabs_always\1\27max_bufferline_percent\3B\1\3\0\0\b\b\1\0\1\venable\2\nsetup\ftabline\frequire\0" },
     loaded = true,
     path = "C:\\Users\\alex\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tabline.nvim",
     url = "https://github.com/kdheepak/tabline.nvim"
@@ -227,6 +227,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\alex\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-easy-align"] = {
+    loaded = true,
+    path = "C:\\Users\\alex\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-easy-align",
+    url = "https://github.com/junegunn/vim-easy-align"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "C:\\Users\\alex\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
@@ -246,7 +251,7 @@ try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K
 time([[Config for toggleterm.nvim]], false)
 -- Config for: tabline.nvim
 time([[Config for tabline.nvim]], true)
-try_loadstring("\27LJ\2\n�\3\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0�\1\n      set guioptions-=e \" Use showtabline in gui vim\n\n      set sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\n    \bcmd\bvim\foptions\25component_separators\1\3\0\0\b\b\23section_separators\1\0\b\23show_filename_only\1\15show_bufnr\1\18show_devicons\2\21show_tabs_always\1\27max_bufferline_percent\3B\19show_tabs_only\1\20modified_italic\1\18modified_icon\a+ \1\3\0\0\b\b\1\0\1\venable\2\nsetup\ftabline\frequire\0", "config", "tabline.nvim")
+try_loadstring("\27LJ\2\n�\3\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0�\1\n      set guioptions-=e \" Use showtabline in gui vim\n\n      set sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\n    \bcmd\bvim\foptions\25component_separators\1\3\0\0\b\b\23section_separators\1\0\b\19show_tabs_only\1\20modified_italic\1\18modified_icon\a+ \23show_filename_only\1\15show_bufnr\1\18show_devicons\2\21show_tabs_always\1\27max_bufferline_percent\3B\1\3\0\0\b\b\1\0\1\venable\2\nsetup\ftabline\frequire\0", "config", "tabline.nvim")
 time([[Config for tabline.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)

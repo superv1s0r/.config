@@ -18,4 +18,4 @@ vim.keymap.set("n", "<leader><END>", "<CMD>:999999<CR>", {silent = true})
 
 vim.keymap.set("n", "<leader>ga", "<CMD>EasyAlign<CR>")
 
-vim.keymap.set("v", "<><F3>", "<CMD>set pastetoggle<CR>", {silent = true})
+vim.keymap.set("v", "<F3>", "<CMD>set pastetoggle<CR>", {silent = true})

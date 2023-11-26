@@ -89,6 +89,7 @@ return require('packer').startup(function(use)
         "MunifTanjim/nui.nvim",
     }
   })
+  use('junegunn/vim-easy-align')
 use {
 
   'kdheepak/tabline.nvim',
