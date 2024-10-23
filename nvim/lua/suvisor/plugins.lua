@@ -6,9 +6,9 @@ vim.cmd.packadd('packer.nvim')
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-
+  use 'tikhomirov/vim-glsl'
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.0',
+	  'nvim-telescope/telescope.nvim', tag = '0.1.4',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
 -- 		  vim.cmd('colorscheme rose-pine')
 -- 	  end
 --   })
-  use('savq/melange-nvim')
+  --use('savq/melange-nvim')
   use({
       "folke/trouble.nvim",
       config = function()
@@ -32,7 +32,8 @@ return require('packer').startup(function(use)
           }
       end
   })
-
+use {'nyoom-engineering/oxocarbon.nvim'}
+--use { "ellisonleao/gruvbox.nvim" };
  -- use {
  --   		'nvim-treesitter/nvim-treesitter',
  --   		run = function()
@@ -40,6 +41,8 @@ return require('packer').startup(function(use)
  --   			ts_update()
  --   		end,}
   --use("nvim-treesitter/playground")
+  use{"rose-pine/neovim", as = "rose-pine"}
+  use('hrsh7th/cmp-cmdline')
   use("theprimeagen/harpoon")
   use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")

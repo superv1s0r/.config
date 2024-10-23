@@ -22,8 +22,6 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
-vim.cmd.colorscheme('melange')
-
 
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
@@ -34,8 +32,13 @@ vim.opt.updatetime = 50
 vim.opt.clipboard = "unnamed"
 vim.opt.colorcolumn = "80"
 
+--For windows systems
 if(vim.loop.os_uname().sysname == "Windows_NT")
 then
 vim.opt.shell='C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe'
+else
+--Otherwise using Linux
+vim.opt.shell='/bin/zsh'    
 end
 
+require'lspconfig'.pyright.setup{}

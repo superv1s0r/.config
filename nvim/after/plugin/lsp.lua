@@ -3,7 +3,7 @@ local lsp = require("lsp-zero")
 lsp.preset("recommended")
 
 lsp.ensure_installed({
-  'tsserver',
+  'ts_ls',
    
 })
 
@@ -57,3 +57,9 @@ lsp.setup()
 vim.diagnostic.config({
     virtual_text = true
 })
+
+
+vim.cmd [[
+  autocmd BufRead,BufNewFile *.vs setfiletype glsl
+  autocmd BufRead,BufNewFile *.fs setfiletype glsl
+]]
