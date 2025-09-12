@@ -21,6 +21,10 @@ vim.keymap.set("n", "<leader>ga", "<CMD>EasyAlign<CR>")
 vim.keymap.set("v", "<><F3>", "<CMD>set pastetoggle<CR>", {silent = true})
 
 --ToggleTerm configuration
-vim.keymap.set({"n", "v"}, "<leader>m", "<CMD>ToggleTerm dir=./ direction=float name=main<CR>", {silent = true})
-
+vim.keymap.set({"n", "v"}, "<leader>m", "<CMD>ToggleTerm dir=./ direction=horizontal name=main<CR>", {silent = true})
+vim.api.nvim_set_keymap("t", "<leader>q", "<C-\\><C-n>:ToggleTerm<CR>", { noremap = true, silent = true })
 vim.keymap.set({"n", "v"}, "<leader>W", "daw", {silent = true})
+
+--Repeat previous complex Neovim Motion
+
+vim.keymap.set({"n", "v"}, "<leader>r", "@:", {silent = true})

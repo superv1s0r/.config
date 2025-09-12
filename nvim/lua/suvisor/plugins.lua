@@ -7,11 +7,33 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   use 'tikhomirov/vim-glsl'
-  use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.4',
-	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
-  }
+
+    use 'p00f/alabaster.nvim'
+    --use {
+    --'Verf/deepwhite.nvim',
+    --config = function()
+    --    vim.cmd [[colorscheme deepwhite]]
+    --end,
+
+    --}
+
+
+    use {"rktjmp/lush.nvim" }
+    use { "scottmckendry/cyberdream.nvim" }
+    use { "metalelf0/jellybeans-nvim" }
+use {
+  'nvim-telescope/telescope.nvim',
+  requires = {
+    { 'nvim-lua/plenary.nvim' },
+    { 'nvim-telescope/telescope-live-grep-args.nvim' }
+  },
+  config = function()
+    local telescope = require('telescope')
+    -- Load the live_grep_args extension
+    telescope.load_extension('live_grep_args')
+  end
+}
+
 
 --   use({
 -- 	  'rose-pine/neovim',
@@ -92,8 +114,10 @@ use {'nyoom-engineering/oxocarbon.nvim'}
         "MunifTanjim/nui.nvim",
     }
   })
+  use { "scottmckendry/cyberdream.nvim" }  
+  use("mg979/vim-visual-multi")
   use('junegunn/vim-easy-align')
-use {
+  use {
 
   'kdheepak/tabline.nvim',
 
